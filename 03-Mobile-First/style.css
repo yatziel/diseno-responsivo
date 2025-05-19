@@ -1,0 +1,113 @@
+/* 
+  Barra de Navegación > Mobile First
+
+    1. Primero se escriben los estilos para dispositivos móviles.
+    2. Luego se aplican cambios con media queries para pantallas más grandees: tablets, laptops, escritorio.
+
+  Estructura General
+
+    1. Reseteamos margenes y paddings para evitar estilos por defecto.
+    2. Usaremos flexbox para alinear y distribuir los elementos.
+    3. Aplicaremos colores, tamaños y espaciados adecuados para una navegación clara.
+
+  Estilos
+
+  Móviles
+
+    - Menu en columna, centrado, con fondo oscuro y texto claro.
+  
+  Tablets
+
+    - El menu se conveirte en fila y cambia de fondo
+  
+  Laptops
+
+    - Se añade espacio entre los elementos, se alinean a los lados y hay efecto al paras el mouse (hover)
+
+  Escritorio
+
+    - El contenido se centra dentro de un ancho máximo para mejorar la presentación.
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Estilos base Mobile */
+
+.brand {
+  padding: 0.75em 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b2328;
+}
+
+.menu-item {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.75em 0;
+}
+
+/* Break Point 768px > Tablets */
+
+@media screen and (min-width: 768px) {
+  .nav {
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+
+  .menu {
+    flex-direction: row;
+    background-color: white;
+  }
+
+  .menu-item {
+    color: #1b2328;
+    flex-grow: 1;
+  }
+}
+
+/* Break Point 1024px > Laptop */
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    padding: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    padding: 0;
+  }
+
+  .menu {
+    gap: 2em;
+  }
+
+  .menu-item:hover {
+    color: lightsalmon;
+    cursor: pointer;
+  }
+}
+
+/* Break Point 1280px > Escritorio */
+
+@media screen and (min-width: 1280px) {
+  .nav {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
