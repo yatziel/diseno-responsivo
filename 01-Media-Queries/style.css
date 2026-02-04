@@ -2,7 +2,7 @@
 
   Media Queries
 
-  Permiten aplicar estilos CSS especificos de acuerdo a las caracteristicas del dispotivo.
+  Permiten aplicar estilos CSS especificos de acuerdo a las caracteristicas del dispositivo.
 
   Utilizan la regla @media para condicionar la aplicación de estos estilos y sigue la siguiente sintaxis:
   
@@ -13,11 +13,11 @@
   Media Type (Tipos de Medios)
 
   * screen -> Pantallas de computadora, tablets o de móviles.
-  * speech -> Sitentizadores de voz.
+  * speech -> Sintetizadores de voz.
   * print  -> Para documentos impresos. Imprimir la web.
   * all    -> Todos los dispositivos. Valor por defecto.
 
-  Conectors (Conectores)
+  Conectores (Connectors)
 
   * and -> y -> Se coloca entre el media-type y el media-feature.
   * or  -> o -> Se usa una coma ',' para separar media-featuares
@@ -28,10 +28,10 @@
   * width  -> Ancho de la ventana del navegador
   * height -> Alto de la ventana del navegador
   * min-width / max-width -> Ancho mínimo y máximo del navegador.
-  * min-height / max-heiht -> Altura mínima y máxima del navegador.
-  * orientation -> Orientación del dispotivo: portrait o landscape
+  * min-height / max-height -> Altura mínima y máxima del navegador.
+  * orientation -> Orientación del dispositivo: portrait o landscape
   * resolution -> Densidad de pixeles
-  * color -> Numero de bits por color
+  * color -> Número de bits por color
 
 */
 

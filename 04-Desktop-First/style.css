@@ -1,14 +1,14 @@
 /* 
 
-  Desktop Firts
+  Desktop First
 
-    - Primero se escriben los estilos para pantallas de grandes (escritorio)
+    - Primero se escriben los estilos para pantallas grandes (escritorio)
     - Luego se ajustan a pantallas más pequeñas (tablets y móviles) usando media queries.
 
   Estilos Escritorio
 
     - .main contenedor principal centrado con un ancho máximo.
-    - .container usa CSS Grid para crear 4 columnas
+    - .container usa CSS Grid para crear 3 columnas
     - .item se acomodan en cada celda de la cuadrícula con fondo oscuro y bordes redondeados.
     - .item-image con un efecto visual de opacidad + zoom al pasar el mouse.
 
@@ -31,7 +31,7 @@ img {
   height: initial;
 }
 
-/* Estilos por default para escritorio */
+/* Estilos por defecto para escritorio */
 
 .main {
   max-width: 1280px;

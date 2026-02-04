@@ -2,11 +2,11 @@
   Barra de Navegación > Mobile First
 
     1. Primero se escriben los estilos para dispositivos móviles.
-    2. Luego se aplican cambios con media queries para pantallas más grandees: tablets, laptops, escritorio.
+    2. Luego se aplican cambios con media queries para pantallas más grandes: tablets, laptops, escritorio.
 
   Estructura General
 
-    1. Reseteamos margenes y paddings para evitar estilos por defecto.
+    1. Reseteamos márgenes y paddings para evitar estilos por defecto.
     2. Usaremos flexbox para alinear y distribuir los elementos.
     3. Aplicaremos colores, tamaños y espaciados adecuados para una navegación clara.
 
@@ -18,11 +18,11 @@
   
   Tablets
 
-    - El menu se conveirte en fila y cambia de fondo
+    - El menu se convierte en fila y cambia de fondo
   
   Laptops
 
-    - Se añade espacio entre los elementos, se alinean a los lados y hay efecto al paras el mouse (hover)
+    - Se añade espacio entre los elementos, se alinean a los lados y hay efecto al pasar el mouse (hover)
 
   Escritorio
 
